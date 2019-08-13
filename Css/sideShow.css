@@ -1,0 +1,32 @@
+.carousel-indicators {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+    float: left;
+    width: 34%;
+    height: 0.8rem;
+    margin: 0;
+    border-radius: 0;
+    border: 0;
+    background: #ccc;
+}
+.carousel-indicators li.active {
+    background: #DFBF0C;
+}
+.carousel-item img{
+    width: 100%;
+    height: 50rem;
+}
+#myCarousel{
+    border: 0 !important;
+}
+.slide-show,.slide-flim{
+    background: #49484b;
+    width: 100%;
+    height: 100%;
+}

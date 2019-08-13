@@ -1,0 +1,68 @@
+.container h1,.film-rap .container h1{
+    padding-top: 1rem;
+    color: rgb(255, 196, 0);
+}
+hr {
+    background: rgb(134, 134, 134);
+}
+.owl-carousel .card{
+    position: relative;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.owl-carousel .card:hover{
+    transform: translateY(-0.8rem);
+}
+.card-img-overlay{
+    padding: 0.5rem;
+}
+.card-img-overlay button{
+    top: 0.8rem;
+}
+.list-film-bg{
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    position: absolute;
+    bottom: 0.5rem;
+    padding: 0.5rem;
+    
+}
+.list-film-bg h5{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(255, 34, 0);
+}
+.list-film-bg a h5:hover{
+    color: rgb(255, 196, 0);
+}
+.list-film-bg a{
+    text-decoration: none;
+}
+.list-film-bg p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+}
+.card button{
+    position: relative;
+    font-size: 1.1rem;
+    display: inline-block;
+    font-weight: bold;
+    background: #A21D0A;
+    color: white;
+    white-space: nowrap;
+    outline: none;
+}
+.card button:after{
+    content: "";
+    float: right;
+    position: absolute;
+    top: 0;
+    right: -15px;
+    width: 0;
+    height: 0;
+    border-color: transparent transparent transparent #A21D0A;
+    border-style: solid;
+    border-width: 1.2rem 0 1.2rem 1.5rem;
+}

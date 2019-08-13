@@ -1,0 +1,66 @@
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.navbar{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar-nav li{
+    margin-right: 0.8rem;
+}
+.navbar-nav li a{
+    cursor: pointer;
+}
+.megamenu-li {
+	position: static;
+}
+.navbar-nav{
+    margin: 0 auto;
+}
+.dropdown-menu{
+    border-top: 0.05rem solid rgb(77, 77, 77);
+    max-width: 100rem;
+    padding: 1.5rem;
+    background: #343A40;
+    margin: 0 3rem;
+}
+.megamenu {
+	position: absolute;
+    
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(255, 230, 0);
+}
+.col-md-4 a{
+    display: block;
+    position: relative;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.col-md-4 a:before{
+    position: absolute;
+    content: "";
+    width: 0;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: rgba(255, 255, 255,0.4);
+    transition: .25s;
+    z-index: -1;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    background: none;
+    color: rgb(255, 255, 255);
+}
+.col-md-4 a:hover:before{
+    width: 100%;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 1.5rem;
+}

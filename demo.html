@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="./main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                  <div class="navbar-header">
+                      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#">
+                    <img src="http://demo.syscloud.com/Images/logo.png" width="100"/>
+                    </a>
+                    <ul class="nav navbar-nav nav-options" id="nav-header-actions">        
+                     <li id="search-wrapper">
+                       <a id="searchlink">             
+                           <i class="material-icons" >search</i>
+                        </a>   
+                       <input type="text" 
+                           class="form-control" placeholder="Search" id="search"> 
+                           </li>
+                     <li>
+                       <a>
+                           <i class="material-icons">notifications</i>           
+                       </a>
+                           </li>
+                     <li>
+                       <a>
+                           <i class="material-icons">shopping_cart</i></a>
+                     </li>
+                    </ul>
+                  </div>
+                    <div class="collapse navbar-collapse
+                              js-navbar-collapse">
+                      <ul class="nav navbar-nav">
+                          <li class="dropdown mega-dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Threat Center 
+                        <i class="material-icons">keyboard_arrow_down</i></a>
+                              <ul class="dropdown-menu mega-dropdown-menu row">				
+                                  <li class="col-sm-3">
+                                      <ul>
+                                          <li class="dropdown-header">Channels</li>
+                                          <li><a href="#">All</a></li>
+                                          <li><a href="#">My Policy</a></li>
+                                          <li><a href="#">Backup & Restore</a></li>
+                                          <li><a href="#">User Behavior Analytics</a></li>
+                                          <li><a href="#">Digital Citizenship</a></li>
+                            <li><a href="#">Weekly Reports</a></li>
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">All Reports</a></li>
+                            <li><a href="#">Active Cards</a></li>
+                            <li><a href="#">Archived Threats</a></li>
+                            <li><a href="#">Document Security</a></li>
+                            <li><a href="#">Email Security</a></li>  
+                            <li><a href="#">SysCloud Recommends</a></li>
+                            <li><a href="#">Data Loss Prevention</a></li>
+                            <li><a href="#">Compliance</a></li>
+                                      </ul>
+                                  </li>
+                        <li class="col-sm-3">
+                                      <ul>
+                            <li class="dropdown-header">Data Security</li>
+                            <li><a href="#"> Sensitive Content</a></li>  
+                            <li><a href="#">Data Breach</a></li>                
+                          </ul>
+                                  </li> 
+                                  <li class="col-sm-3">
+                                      <ul>
+                                          <li class="dropdown-header">Compliance</li>
+                                          <li><a href="#">All</a></li>
+                                      </ul>
+                                  </li>          
+                                  <li class="col-sm-3">
+                                      <ul>
+                                          <li class="dropdown-header">Platform</li>
+                                          <li><a href="#">Google Suite</a></li>
+                                          <li><a href="#">Office 365</a></li>
+                                          <li><a href="#">Salesforce</a></li>							
+                                      </ul>
+                                  </li>
+                              </ul>
+                          </li>
+                      </ul>
+                  <ul class="nav navbar-nav">
+                          <li class="dropdown mega-dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Backup <i class="material-icons">keyboard_arrow_down</i></a></a>
+                              
+                              <ul class="dropdown-menu mega-dropdown-menu row">
+                                  <li class="col-sm-3">
+                                      <ul>
+                                          <li><a href="#">Dashboard</a></li>
+                            <li><a href="#">Start Backup</a></li>
+                            <li><a href="#">Archive & Restore</a></li>
+                          </ul>
+                        </li>
+                        <li class="col-sm-3">
+                                      <ul>
+                                      <li class="dropdown-header">Settings</li>
+                              <li><a href="#">Backup Settings</a></li>	
+                              <li><a href="#">Manage Domains</a></li>
+                              <li><a href="#">Manage Users</a></li>
+                              <li><a href="#">Manage Groups</a></li>
+                              <li><a href="#">Retention Period</a></li>   
+                                      </ul>
+                                  </li>
+                        <li class="col-sm-3">
+                                      <ul>
+                                          <li class="dropdown-header">Reports</li>
+                                        <li><a href="#">Activity Report</a></li>	
+                            <li><a href="#">Restore Report</a></li>
+                            <li><a href="#">Export Report</a></li>
+                            <li><a href="#">Group Restores</a></li>
+                            <li><a href="#">User Summary</a></li>
+                            <li><a href="#">Domain Summary</a></li>
+                            <li ><a href="#">Status Report</a></li>
+                                      </ul>
+                                  </li>  
+                        <li class="col-sm-3">
+                                      <ul>
+                                          <li class="dropdown-header">Salesforce</li>	
+                                        <li><a href="#">Start Backup</a></li>
+                            <li><a href="#">Archive & Restore</a></li>
+                            <li><a href="#">Restore Report</a></li>
+                                      </ul>
+                                  </li>  
+                              </ul>
+                          </li>      
+                      </ul>
+                  <ul class="nav navbar-nav">
+                          <li class="dropdown mega-dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Security <i class="material-icons">keyboard_arrow_down</i></a></a>
+                              
+                              <ul class="dropdown-menu mega-dropdown-menu row">					
+                                  <li class="col-sm-3">
+                                      <ul>
+                                          <li class="dropdown-header">Sharing Insights</li>		
+                                <li id="liSecurityDocumentReport"><a >Dashboard</a></li>
+                                      <li id="liSecurityDocumentReport"><a >Documents</a></li>
+                                      <li id="liSecurityEmailReport"><a >Mails</a></li>
+                                      <li id="liSecuritySiteReport"><a >Sites</a></li>
+                          </ul>
+                        </li>
+                        
+                        <li class="col-sm-3">
+                                      <ul>
+                                          <li class="dropdown-header">Data Loss Prevention</li>
+                                      <li id="liDsSecurityPolicies"><a href="SecurityPolicy.aspx">Policies </a></li>
+                                      <li id="liCreateSecurityPolicies" class="menu-not-disabled"><a href="createPolicy.aspx">Create Policy </a></li>
+                                      <li id="liSecurityPolicyViolataionReport"><a href="SecurityPolicyViolationReport.aspx">Policy Violations </a></li>	
+                                      </ul>
+                        </li>
+                        
+                        <li class="col-sm-3">
+                                      <ul>
+                                <li class="dropdown-header">Apps Firewall</li>
+                                      <li id="liAppsThreatReport"><a >Apps Threat Report </a></li>
+                                      <li id="liFirewallPolicies"><a >Policies </a></li>
+                                      <li id="liFirewallCreatePolicy" class="menu-not-disabled"><a >Create Policy </a></li>
+                                      <li id="liAppViolations"><a >Policy Violations </a></li>
+                                      </ul>
+                                  </li>
+                         <li class="col-sm-3">
+                                      <ul>
+                            <li class="dropdown-header">Web Filter</li>
+                                <li id="liWebfilterPolicies"><a >Policies  </a></li>
+                                      <li id="liWebfilterCreate"><a >Create Policy </a></li>		
+                                      <li id="liFlaggedActivity"><a >Flagged Activities</a></li>					
+                                      <li id="liChromeFilter"><a target="_blank" >Syscloud Chrome Filter</a></li>	
+                                  <li class="dropdown-header">Tools</li>
+                                  <li><a href="#">Google Drive Encryption</a></li>
+                                      </ul>
+                                  </li>
+                        
+                      </ul>				
+                          </li>
+                        
+                    
+                      </ul>
+                  <ul class="nav navbar-nav">
+                          <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" >Complaince <i class="material-icons">keyboard_arrow_down</i></a></a>
+                      <ul class="dropdown-menu">
+                                  <li id="liComplaincePolicy"><a >Policies</a></li>
+                                  <li id="liCreateComplaincePolicy" class="menu-not-disabled"><a >Create Policy</a></li>
+                                  <li id="liComplaincePolicyViolationReport"><a >Policy Violations</a></li>
+                              </ul>
+                    </li>      
+                  </ul>
+                  <ul class="nav navbar-nav">
+                    <li class="dropdown mega-dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Setup <i class="material-icons">keyboard_arrow_down</i></a></a>				
+                              <ul class="dropdown-menu mega-dropdown-menu row">					
+                                  <li class="col-sm-3">            
+                                      <ul>
+                            <li class="dropdown-header">Manage</li>
+                                  <li id="liManageAccounts"><a >Manage Cloud Apps</a></li>
+                                  <li id="liAccessControl"><a >Manage Admin Roles</a></li>
+                          </ul>
+                        </li>
+                        <li class="col-sm-3">
+                                      <ul>
+                            <li class="dropdown-header">Settings</li>
+                                      <li id="liDLPSettings"><a >DLP/Compliance Settings</a></li>
+                                      <li id="limanager"><a >Assign Managers</a></li>
+                                      <li id="liEndUserAccess"><a >End-user Access</a></li>	
+                                      </ul>
+                                  </li>
+                        <li class="col-sm-3">
+                                      <ul>
+                           <li class="dropdown-header">Reports</li>
+                                      <li id="liSecurityActivityReport"><a >Activity Report</a></li>
+                                      <li id="liSecurityActionReport"><a >Action Report</a></li>			
+                                      <li id="liWeeklyReports"><a target="_blank">Weekly Report</a></li>	
+                                      <li id="liWeeklyReports"><a target="_blank">Phishing Report</a></li>	
+                                      </ul>
+                                  </li>
+                        <li class="col-sm-3">
+                                      <ul>
+                          <li class="dropdown-header">Templates</li>
+                                      <li id="liOwnerTemplate"><a >Ownerscope Templates</a></li>
+                                      <li id="liDocumentTemplate"><a >File Name &amp; Extensions</a></li>            
+                          <li class="dropdown-header">Tools</li>
+                                      <li id="liSecurityExportAllReports"><a >Messaging</a></li>
+                                      <li id="liSecurityExportAllReports"><a >Tasks</a></li>
+                                      </ul>
+                                  </li>
+                       
+                      </ul>
+                      
+                  </ul>
+                    <ul class="nav navbar-nav">
+                          <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" >Support <i class="material-icons">keyboard_arrow_down</i></a></a>
+                      <ul class="dropdown-menu">
+                        <li><a >Create Ticket</a></li>
+                                  <li><a >Contact Us</a></li>					
+                              </ul>
+                    </li>      
+                  </ul>
+                  <ul class="nav navbar-nav pull-right nav-options">      
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle badge-wrapper" data-toggle="dropdown" role="button" ><span class="badge">P</span></a>
+                      <ul class="dropdown-menu my-menu">
+                        <li><a href="#" class="username">
+                          Hi Peter
+                          <span>peter@liveonlinecloud.info</span>
+                          </a></li>
+                                  <li><a href="#"><i class="material-icons">person</i> My Profile</a></li>
+                                  <li class="menu-disabled"><a href="#"><i class="material-icons">exit_to_app</i>Logout</a></li>
+                              </ul>
+                    </li> 
+                    </ul>
+                  </div><!-- /.nav-collapse -->
+                </div>
+              </nav>
+    <script>
+    $(document).ready(function(){
+    $('.dropdown').on('show.bs.dropdown', function() {
+      $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
+    });
+    // Add slideUp animation to Bootstrap dropdown when collapsing.
+    $('.dropdown').on('hide.bs.dropdown', function() {
+      $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
+    });
+    $('#searchlink').on('click', function(e) {
+          e.preventDefault();
+          $(this).parent().toggleClass('open');
+     });
+     $(document).on("click", function(e) {
+        if ($(e.target).parent().is("#searchlink") === false &&
+          $(e.target).is("#search") === false ) {
+          $("#search-wrapper").removeClass("open");
+        }
+      });
+  });
+
+    </script>
+              
+</body>
+</html>
